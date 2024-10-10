@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 0.91) 23%,
+    rgba(223, 159, 247, 0.8) 93%
+  );
+}
+h1 {
+  text-align: center;
+  color: rgb(216, 79, 235);
+}
+h2 {
+  text-align: center;
+  color: rgb(216, 79, 235);
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+p {
+  line-height: 18px;
+  font-size: 20px;
+  color: rgb(82, 9, 88);
+}
+button {
+  display: block;
+  margin: 0 auto;
+  background: lavender;
+  color: rgb(216, 79, 235);
+  border-radius: 8px;
+  font-size: 22px;
+  padding: 10px 15px;
+  border: 1px solid rgb(216, 79, 235);
+  transition: all 0.15s ease-in-out;
+}
+button:hover {
+  background: rgb(216, 79, 235);
+  color: lavender;
+  cursor: pointer;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: lavenderblush;
+  border-radius: 10px;
+}
+footer {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+}
+.theme-button {
+  background: black;
+  color: white;
+  padding: 5px 8px;
+  transition: all 150ms ease-in-out;
+}
+.theme-button:hover {
+  background: white;
+  color: black;
+}
+.soap-intro-picture {
+  border-radius: 8px;
+  transition: all 150ms ease-in-out;
+}
+
+.soap-intro-picture:hover {
+  filter: contrast(80%);
+  transform: scale(1.2);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  margin: 10px;
+}
+.grid img {
+  width: 100%;
+  border-radius: 6px;
+  transition: all 150ms ease-in-out;
+}
+.grid img:hover {
+  transform: scale(1.2);
+}
+.dark {
+  background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+}
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+.dark a {
+  color: rgb(216, 79, 235);
+}
